@@ -1,0 +1,18 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.form-wrapper {
+  padding: 1rem 1rem;
+}
+.error {
+  color: red;
+}
+.success {
+  color: green;
+}
