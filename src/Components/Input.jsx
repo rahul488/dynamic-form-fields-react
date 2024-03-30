@@ -10,7 +10,6 @@ const AppInput = ({ name, id, placeholder, label, type, ...rest }) => {
     message: "",
   });
   const { minLength, maxLength, required, errorMessage } = rest;
-  console.log(rest, minLength);
   function handleChange(e) {
     setValue(e.target.value);
   }
